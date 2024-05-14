@@ -17,4 +17,9 @@ public:
 	static void setNim(int pNim) { nim = pNim; }
 	static int getNim() { return nim; }
 
-	
+	mahasiswa(string pnama)
+	{
+		nama = pnama;
+		setID();
+	}
+};
